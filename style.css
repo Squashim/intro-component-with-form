@@ -148,3 +148,13 @@ footer{
 }
 .attribution { font-size: 11px; text-align: center; margin: 0;}
 .attribution a { color: white; }
+@media (min-width: 40em){
+    main{
+        flex-direction: row;
+        min-height: 100vh;
+        align-items: center;
+    }
+    main > * {
+        flex-basis: 100%;
+    }
+}
