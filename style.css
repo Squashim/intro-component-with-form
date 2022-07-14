@@ -87,12 +87,6 @@ form{
     width: 100%;
     position: relative;
 }
-.form-input svg{
-    visibility: hidden;
-    position: absolute;
-    top: 1.1em;
-    right: 1em;
-}
 .red::-webkit-input-placeholder{
     color: var(--red);
 }
@@ -153,9 +147,16 @@ footer{
     margin: 1.5em 0;
     padding: 0 1.5em;
 }
+svg{
+    visibility: hidden;
+    position: absolute;
+    top: .6em;
+    right: 1em;
+}
 .attribution { font-size: 11px; text-align: center; margin: 0;}
 .attribution a { color: white; }
-@media (min-width: 50em){
+
+@media only screen and (min-width: 50em){
     main{
         flex-direction: row;
         min-height: 100vh;
@@ -196,11 +197,7 @@ footer{
     .terms{
         font-size: .7em;
     }
-    .form-input::after{
-        font-size: .7em;
-    }
-    .form-input::before{
+    svg{
         top: 1.2em;
-        right: 1.2em;
     }
 }
