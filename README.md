@@ -1,5 +1,7 @@
 # Frontend Mentor - Intro component with sign up form
 
+<img src="https://github.com/Squashim/intro-component-with-form/blob/main/images/preview_mobile.png">
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
