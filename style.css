@@ -89,6 +89,7 @@ form{
 }
 .form-input::before{
     content: "";
+    display: none;
     width: 1.5em;
     height: 1.5em;
     background-size: contain;
@@ -100,7 +101,7 @@ form{
 }
 .form-input::after{
     content: "First name cannot be empty";
-    display: flex;
+    display: none;
     justify-content: flex-end;
     margin: .5em 0 1.3em 0;
     font-size: .5em;
